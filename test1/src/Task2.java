@@ -39,4 +39,15 @@ public class Task2 {
         }
         return true;
     }
+
+
+    public static int right() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number: ");
+        int a = scanner.nextInt();
+
+        if (a >= 5) return 1;
+        else return 0;
+    }
 }

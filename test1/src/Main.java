@@ -14,6 +14,7 @@ public class Main {
 
 
         System.out.println(Task2.task2());
+        System.out.println(Task2.right());
 
     }
 }
